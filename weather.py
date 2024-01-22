@@ -30,7 +30,7 @@ def weatherData(base_url, city_name, api_key):
 
 
 def forecast(api_key, forecast_url, lat, lon,city_name):
-    print(city_name,"---")
+    
     if  city_name != "" and api_key != "" :
         url = f"{forecast_url}?lat={lat}&lon={lon}&appid={api_key}&units=metric"
         print(f"Forecast url is : {url}")

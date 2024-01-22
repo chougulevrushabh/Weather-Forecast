@@ -18,6 +18,9 @@ To run the code, follow the steps below:
     - Add your OpenWeatherMap API key to the `.env` file:
 
       api_key = `your_api_key`
+      
+      Use this api key
+      `api_key = '49be92bf0230b1709b927ad1e9157e62'`
 
 3. **Install Required Libraries:**
    
